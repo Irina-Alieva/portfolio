@@ -1,0 +1,30 @@
+.button {
+  display: inline-block;
+  background-color:@blueHeading;
+  color:#fff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 60px;  
+  padding: 11px 26px 14px;
+  &:hover,&:focus {
+    transition: background-color 0.3s ease-in; 
+    background-color: #fff;
+    color:@blueHeading;
+    box-shadow: 2px 2px 2px 3px #bbd1ef, -2px 2px 2px 3px #bbd1ef;
+    .fa {color:@blueHeading;
+    }
+    &:active {
+     box-shadow:0 0 0 0 #fff;
+     background-color:@blueHeading;
+     color:@yellow;
+     .fa {color:@yellow;
+     }
+   }
+ }
+ .fa {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #fff;
+}
+}
+
